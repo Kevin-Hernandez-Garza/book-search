@@ -35,6 +35,15 @@ const typeDefs = gpl`
         saveBook(input: bookInput): User
         removeBook: (bookId: String!): User
     }
+
+    input saveBook {
+        authors: [String]
+        description: String!
+        bookId: String!
+        image: String!
+        link: String!
+        title: String!
+    }
 `;
 
 // export the typeDefs 
