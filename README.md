@@ -35,7 +35,7 @@
 
 ## Screenshot
 
-![mockup]()
+![mockup](client/public/images/book-mock.png)
 
 ## Link
 
