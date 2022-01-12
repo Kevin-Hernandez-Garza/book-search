@@ -12,15 +12,12 @@ module.exports = {
 
     // ["Bearer", "<tokenvalue>"]
     if (req.headers.authorization) {
-      token = token
-      .split(' ')
-      .pop()
-      .trim();
+      token = token.split(' ').pop().trim();
     }
 
     if (!token) {
-      return req;
-      // return res.status(400).json({ message: 'You have no token!' });
+      // return req;
+      return res.status(400).json({ message: 'You have no token!' });
     }
 
     // verify token and get user data out of it
