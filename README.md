@@ -12,7 +12,7 @@
 
 ## Description 📖
 
--
+- A Google Books API search engine built with GraphQL API and also built with Apollo Server. The app was built using the MERN stack, with a React front end, MongoDB database, and Node.js/Express.js server and API. It allow's users to save book searches to the back end.
 
 ## Table of Contents
 
@@ -39,7 +39,7 @@
 
 ## Link
 
--
+- [Deployed Link](https://mighty-wave-18723.herokuapp.com/)
 
 ## Contribution
 
